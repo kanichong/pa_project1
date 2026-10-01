@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pa8/Downloads/project_vision/problem2/ws/src/tracking_interfaces" FILES "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/tracking_interfaces/cmake")

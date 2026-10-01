@@ -1,0 +1,168 @@
+[
+  {
+    "target": "blue_cube",
+    "source": "synthetic",
+    "processing_size": [
+      640,
+      480
+    ],
+    "hsv_ranges": [
+      {
+        "lower": [
+          100,
+          150,
+          60
+        ],
+        "upper": [
+          125,
+          255,
+          255
+        ]
+      }
+    ],
+    "scene": "visible",
+    "expected_visible": true,
+    "verdict": "TP",
+    "camera_settings": null,
+    "process_ms": 4.352268006186932,
+    "detected": true,
+    "frame_size": [
+      640,
+      480
+    ],
+    "image_center": [
+      320.0,
+      240.0
+    ],
+    "center": [
+      320.0,
+      230.0
+    ],
+    "center_original": [
+      320.0,
+      230.0
+    ],
+    "error": [
+      0.0,
+      -0.041666666666666664
+    ],
+    "area": 25594.0,
+    "area_ratio": 0.08331380208333333,
+    "bbox": [
+      240,
+      150,
+      161,
+      161
+    ],
+    "num_candidates": 2,
+    "rejected": [
+      "too_small"
+    ]
+  },
+  {
+    "target": "blue_cube",
+    "source": "synthetic",
+    "processing_size": [
+      640,
+      480
+    ],
+    "hsv_ranges": [
+      {
+        "lower": [
+          100,
+          150,
+          60
+        ],
+        "upper": [
+          125,
+          255,
+          255
+        ]
+      }
+    ],
+    "scene": "absent",
+    "expected_visible": false,
+    "verdict": "TN",
+    "camera_settings": null,
+    "process_ms": 1.9203269985155202,
+    "detected": false,
+    "frame_size": [
+      640,
+      480
+    ],
+    "image_center": [
+      320.0,
+      240.0
+    ],
+    "center": null,
+    "center_original": null,
+    "error": null,
+    "area": null,
+    "area_ratio": null,
+    "bbox": null,
+    "num_candidates": 0,
+    "rejected": [
+      "too_small"
+    ]
+  },
+  {
+    "target": "blue_cube",
+    "source": "synthetic",
+    "processing_size": [
+      640,
+      480
+    ],
+    "hsv_ranges": [
+      {
+        "lower": [
+          100,
+          150,
+          60
+        ],
+        "upper": [
+          125,
+          255,
+          255
+        ]
+      }
+    ],
+    "scene": "occluded",
+    "expected_visible": true,
+    "verdict": "TP",
+    "camera_settings": null,
+    "process_ms": 1.5587650050292723,
+    "detected": true,
+    "frame_size": [
+      640,
+      480
+    ],
+    "image_center": [
+      320.0,
+      240.0
+    ],
+    "center": [
+      282.0,
+      230.0
+    ],
+    "center_original": [
+      282.0,
+      230.0
+    ],
+    "error": [
+      -0.11875,
+      -0.041666666666666664
+    ],
+    "area": 13434.0,
+    "area_ratio": 0.04373046875,
+    "bbox": [
+      240,
+      150,
+      85,
+      161
+    ],
+    "num_candidates": 2,
+    "rejected": [
+      "too_small"
+    ]
+  }
+]

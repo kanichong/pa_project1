@@ -1,0 +1,10 @@
+{
+  "tag": "sign_reversed",
+  "target_az_deg": -14.999999999999998,
+  "start_ex": 0.4348,
+  "end_ex": 1.0291,
+  "max_abs_ex": 1.0291,
+  "end_pan_deg": 20.5,
+  "lost_at_s": 0.7,
+  "centered_at_s": null
+}

@@ -1,0 +1,8 @@
+[console_scripts]
+controller = target_tracking.controller_node:main
+detector = target_tracking.detector_node:main
+input_test = target_tracking.input_test_node:main
+interface_check = target_tracking.interface_check_node:main
+motor_driver = target_tracking.motor_driver_node:main
+pan_sim = target_tracking.pan_sim_node:main
+search_test = target_tracking.search_test_node:main

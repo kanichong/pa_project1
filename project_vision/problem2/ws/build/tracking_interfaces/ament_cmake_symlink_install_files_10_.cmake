@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pa8/Downloads/project_vision/problem2/ws/src/tracking_interfaces" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/tracking_interfaces/environment")

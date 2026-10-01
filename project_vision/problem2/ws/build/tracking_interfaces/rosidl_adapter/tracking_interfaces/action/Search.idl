@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tracking_interfaces/action/Search.action
+// generated code does not contain a copyright notice
+
+
+module tracking_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "/search — 목표를 잃었을 때 제자리 회전 탐색" "\n"
+      "요청")
+    struct Search_Goal {
+      @verbatim (language="comment", text=
+        "+1 = 왼쪽(반시계, REP-103 angular.z +), -1 = 오른쪽")
+      double direction;
+
+      @verbatim (language="comment", text=
+        "회전 속도 크기, > 0")
+      @unit (value="rad/s")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "탐색 제한 시간, > 0")
+      @unit (value="s")
+      double timeout;
+    };
+    @verbatim (language="comment", text=
+      "결과")
+    struct Search_Result {
+      boolean found;
+
+      @verbatim (language="comment", text=
+        "FOUND | TIMEOUT | CANCELED | NO_INPUT | INVALID_GOAL")
+      string reason;
+
+      @unit (value="s")
+      double elapsed;
+    };
+    @verbatim (language="comment", text=
+      "진행")
+    struct Search_Feedback {
+      @unit (value="s")
+      double elapsed;
+
+      @verbatim (language="comment", text=
+        "현재 회전 명령")
+      @unit (value="rad/s")
+      double angular_z;
+
+      @verbatim (language="comment", text=
+        "SEARCHING")
+      string state;
+    };
+  };
+};

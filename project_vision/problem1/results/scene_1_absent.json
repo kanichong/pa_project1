@@ -1,0 +1,46 @@
+{
+  "target": "blue_cube",
+  "source": "synthetic",
+  "processing_size": [
+    640,
+    480
+  ],
+  "hsv_ranges": [
+    {
+      "lower": [
+        100,
+        150,
+        60
+      ],
+      "upper": [
+        125,
+        255,
+        255
+      ]
+    }
+  ],
+  "scene": "absent",
+  "expected_visible": false,
+  "verdict": "TN",
+  "camera_settings": null,
+  "process_ms": 1.9203269985155202,
+  "detected": false,
+  "frame_size": [
+    640,
+    480
+  ],
+  "image_center": [
+    320.0,
+    240.0
+  ],
+  "center": null,
+  "center_original": null,
+  "error": null,
+  "area": null,
+  "area_ratio": null,
+  "bbox": null,
+  "num_candidates": 0,
+  "rejected": [
+    "too_small"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "package_name": "tracking_interfaces",
+  "output_dir": "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/rosidl_generator_type_description/tracking_interfaces",
+  "idl_tuples": [
+    "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/rosidl_adapter/tracking_interfaces:action/Search.idl"
+  ],
+  "include_paths": [
+    "action_msgs:/opt/ros/lyrical/share/action_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "unique_identifier_msgs:/opt/ros/lyrical/share/unique_identifier_msgs/",
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/"
+  ]
+}

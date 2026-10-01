@@ -1,0 +1,21 @@
+# 노드 파라미터 — 인터페이스 표의 단위·부호·주기·타임아웃과 같은 값이다.
+tracking_controller:
+  ros__parameters:
+    kp: 1.0               # [rad/s] / 정규화 오차 1.0 — ex=0.4 → 0.4 rad/s
+    cmd_sign: -1.0        # REP-103 angular.z + = 왼쪽. ex>0(오른쪽) → 음수 명령
+    deadband: 0.05        # |ex| < 0.05 는 정지(중심 근처 떨림 방지)
+    max_speed: 0.6        # [rad/s] 포화
+    rate_hz: 20.0         # 명령·상태 주기
+    timeout: 0.5          # [s] 마지막 신선한 입력 수신 후 (과제 기본값, 30 fps에서 약 15프레임 유실)
+    max_input_age: 0.5    # [s] header.stamp가 이보다 오래되면 신선하지 않음
+
+motor_driver:
+  ros__parameters:
+    output_enabled: false # 모터 출력 OFF — 명령은 로그로만 남긴다
+    cmd_timeout: 0.2      # [s] 명령이 끊기면 구동부에서도 정지(이중 안전)
+    hw_max_speed: 0.6     # [rad/s]
+
+target_detector:
+  ros__parameters:
+    source: realsense     # realsense | synthetic
+    stall_timeout: 0.3    # [s] 새 영상이 없으면 CAMERA_STALL, /target 발행 안 함

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pa8/Downloads/project_vision/problem2/ws/src/tracking_interfaces" FILES "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/tracking_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")

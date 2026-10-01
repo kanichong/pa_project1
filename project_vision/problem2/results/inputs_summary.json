@@ -1,0 +1,208 @@
+[
+  {
+    "phase": "center",
+    "input": {
+      "x": 0.0,
+      "z": 0.05,
+      "stamp": "now"
+    },
+    "expected_state": "CENTERED",
+    "expected_cmd_sign": 0,
+    "steady_states": [
+      "CENTERED"
+    ],
+    "steady_angular_z": [
+      0.0
+    ],
+    "first_expected_state_after_s": 0.028,
+    "transitions": [
+      [
+        0.028,
+        "CENTERED",
+        0.0
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "right",
+    "input": {
+      "x": 0.4,
+      "z": 0.05,
+      "stamp": "now"
+    },
+    "expected_state": "TRACKING",
+    "expected_cmd_sign": -1,
+    "steady_states": [
+      "TRACKING"
+    ],
+    "steady_angular_z": [
+      -0.4
+    ],
+    "first_expected_state_after_s": 0.045,
+    "transitions": [
+      [
+        0.045,
+        "TRACKING",
+        -0.4
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "left",
+    "input": {
+      "x": -0.4,
+      "z": 0.05,
+      "stamp": "now"
+    },
+    "expected_state": "TRACKING",
+    "expected_cmd_sign": 1,
+    "steady_states": [
+      "TRACKING"
+    ],
+    "steady_angular_z": [
+      0.4
+    ],
+    "first_expected_state_after_s": 0.045,
+    "transitions": [
+      [
+        0.045,
+        "TRACKING",
+        0.4
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "lost",
+    "input": {
+      "x": 0.4,
+      "z": 0.0,
+      "stamp": "now"
+    },
+    "expected_state": "LOST",
+    "expected_cmd_sign": 0,
+    "steady_states": [
+      "LOST"
+    ],
+    "steady_angular_z": [
+      0.0
+    ],
+    "first_expected_state_after_s": 0.012,
+    "transitions": [
+      [
+        0.012,
+        "LOST",
+        0.0
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "silence",
+    "input": "발행 중단",
+    "expected_state": "TIMEOUT",
+    "expected_cmd_sign": 0,
+    "steady_states": [
+      "TIMEOUT"
+    ],
+    "steady_angular_z": [
+      0.0
+    ],
+    "first_expected_state_after_s": 0.512,
+    "transitions": [
+      [
+        0.012,
+        "LOST",
+        0.0
+      ],
+      [
+        0.512,
+        "TIMEOUT",
+        0.0
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "frozen",
+    "input": {
+      "x": 0.4,
+      "z": 0.05,
+      "stamp": "frozen"
+    },
+    "expected_state": "TIMEOUT",
+    "expected_cmd_sign": 0,
+    "steady_states": [
+      "TIMEOUT"
+    ],
+    "steady_angular_z": [
+      0.0
+    ],
+    "first_expected_state_after_s": 0.512,
+    "transitions": [
+      [
+        0.012,
+        "TRACKING",
+        -0.4
+      ],
+      [
+        0.512,
+        "TIMEOUT",
+        0.0
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "old_stamp",
+    "input": {
+      "x": 0.4,
+      "z": 0.05,
+      "stamp": "old"
+    },
+    "expected_state": "TIMEOUT",
+    "expected_cmd_sign": 0,
+    "steady_states": [
+      "TIMEOUT"
+    ],
+    "steady_angular_z": [
+      0.0
+    ],
+    "first_expected_state_after_s": 0.012,
+    "transitions": [
+      [
+        0.012,
+        "TIMEOUT",
+        0.0
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "phase": "recover",
+    "input": {
+      "x": 0.4,
+      "z": 0.05,
+      "stamp": "now"
+    },
+    "expected_state": "TRACKING",
+    "expected_cmd_sign": -1,
+    "steady_states": [
+      "TRACKING"
+    ],
+    "steady_angular_z": [
+      -0.4
+    ],
+    "first_expected_state_after_s": 0.012,
+    "transitions": [
+      [
+        0.012,
+        "TRACKING",
+        -0.4
+      ]
+    ],
+    "passed": true
+  }
+]

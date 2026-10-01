@@ -1,0 +1,5 @@
+source;share/tracking_interfaces/local_setup.bash
+source;share/tracking_interfaces/local_setup.dsv
+source;share/tracking_interfaces/local_setup.fish
+source;share/tracking_interfaces/local_setup.sh
+source;share/tracking_interfaces/local_setup.zsh

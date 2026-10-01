@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/rosidl_generator_py/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_introspection_c.so" "TARGETS" "tracking_interfaces_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/tracking_interfaces")

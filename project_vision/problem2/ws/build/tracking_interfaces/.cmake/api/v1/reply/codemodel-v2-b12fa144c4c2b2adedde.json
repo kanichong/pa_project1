@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a8b77c21314497207007.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "tracking_interfaces__py",
+					"jsonFile" : "directory-tracking_interfaces__py-72c8b3dbbf6eba931ba6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/tracking_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tracking_interfaces__rs",
+					"jsonFile" : "directory-tracking_interfaces__rs-d802bd7b1aa9c71e262a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/tracking_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "tracking_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_tracking_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_tracking_interfaces_egg-948db3462ee238293166.json",
+					"name" : "ament_cmake_python_build_tracking_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_sync_tracking_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_sync_tracking_interfaces-7c39aadca5c3e888ca0a.json",
+					"name" : "ament_cmake_python_sync_tracking_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces-4d530105e5fc1f9606ad.json",
+					"name" : "tracking_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__cpp-b30ebb984594dcd83903.json",
+					"name" : "tracking_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tracking_interfaces__py::@6b21c935a6d2a4b734fa",
+					"jsonFile" : "target-tracking_interfaces__py-d28b328cb50a410e8f91.json",
+					"name" : "tracking_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_generator_c-4d133502267e1b2f2a22.json",
+					"name" : "tracking_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_generator_py-b91db43d1dc47b384cd6.json",
+					"name" : "tracking_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_generator_type_description-3e0012bd41e28e359a44.json",
+					"name" : "tracking_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_c-201017b79dc8481beb77.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_cpp-180bbc102aaecfedbdad.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_fastrtps_c-ab9a9f730f51c7fb392e.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_fastrtps_cpp-aec0360b17ee4970ee24.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_introspection_c-3570b4a08d94cc5907dc.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces__rosidl_typesupport_introspection_cpp-25820ca78afcc774ec84.json",
+					"name" : "tracking_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tracking_interfaces__rs::@db48122625282025909d",
+					"jsonFile" : "target-tracking_interfaces__rs-bf3d24ff11c801d10ac1.json",
+					"name" : "tracking_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces_s__rosidl_typesupport_c-63e83e88c4838685aff1.json",
+					"name" : "tracking_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces_s__rosidl_typesupport_fastrtps_c-3f15697d4fe4cf6fb198.json",
+					"name" : "tracking_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces_s__rosidl_typesupport_introspection_c-18db86c7afbc1cc7a582.json",
+					"name" : "tracking_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tracking_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tracking_interfaces_uninstall-fc050e54684e2580a546.json",
+					"name" : "tracking_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4d1f061c8ee9ebc3d117.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces",
+		"source" : "/home/pa8/Downloads/project_vision/problem2/ws/src/tracking_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

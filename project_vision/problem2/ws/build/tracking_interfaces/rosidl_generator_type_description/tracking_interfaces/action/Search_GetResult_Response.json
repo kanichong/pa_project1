@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tracking_interfaces/action/Search_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "tracking_interfaces/action/Search_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "tracking_interfaces/action/Search_Result",
+        "fields": [
+          {
+            "name": "found",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "reason",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "elapsed",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "tracking_interfaces/action/Search_GetResult_Response",
+      "hash_string": "RIHS01_6f3a60f065e0a58bdbc2f6e83757b3bf2f645df2dfbdbe665ac63b046cb64cb5"
+    },
+    {
+      "type_name": "tracking_interfaces/action/Search_Result",
+      "hash_string": "RIHS01_21030d6672e7a227b63a4a180bcd79a484c2648712be3942d53725824f33f23f"
+    }
+  ]
+}

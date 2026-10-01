@@ -1,0 +1,36 @@
+[0.545s] Invoking command in '/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking': AMENT_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages:/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/build --no-deps symlink_data
+[0.679s] running develop
+[0.745s] running egg_info
+[0.745s] creating target_tracking.egg-info
+[0.751s] writing target_tracking.egg-info/PKG-INFO
+[0.751s] writing dependency_links to target_tracking.egg-info/dependency_links.txt
+[0.751s] writing entry points to target_tracking.egg-info/entry_points.txt
+[0.752s] writing requirements to target_tracking.egg-info/requires.txt
+[0.752s] writing top-level names to target_tracking.egg-info/top_level.txt
+[0.752s] writing manifest file 'target_tracking.egg-info/SOURCES.txt'
+[0.764s] reading manifest file 'target_tracking.egg-info/SOURCES.txt'
+[0.764s] writing manifest file 'target_tracking.egg-info/SOURCES.txt'
+[0.772s] running build_ext
+[0.772s] Creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages/target-tracking.egg-link (link to .)
+[0.772s] Installing controller script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] Installing detector script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] Installing input_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] Installing motor_driver script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] Installing pan_sim script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] Installing search_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.772s] 
+[0.772s] Installed /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking
+[0.772s] running symlink_data
+[0.772s] creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index
+[0.772s] creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index
+[0.773s] creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index/packages
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/resource/target_tracking -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index/packages
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/package.xml -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking
+[0.773s] creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/test_inputs.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/bringup.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/sign_demo.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/search_test.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+[0.773s] creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/config
+[0.773s] symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/config/tracking.yaml -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/config
+[0.788s] Invoked command in '/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking' returned '0': AMENT_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages:/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/build --no-deps symlink_data

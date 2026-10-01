@@ -1,0 +1,201 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+-- Found action_msgs: 2.4.5 (/opt/ros/lyrical/share/action_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (1.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces
+[  2%] Generating Rust code for ROS interfaces
+[  5%] Generating type hashes for ROS interfaces
+[  5%] Built target tracking_interfaces__rosidl_generator_type_description
+[  8%] Generating C code for ROS interfaces
+[ 11%] Generating C++ code for ROS interfaces
+[ 11%] Built target tracking_interfaces__rs
+[ 11%] Built target tracking_interfaces__cpp
+[ 17%] Building C object CMakeFiles/tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tracking_interfaces/action/detail/search__functions.c.o
+[ 17%] Building C object CMakeFiles/tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tracking_interfaces/action/detail/search__description.c.o
+[ 20%] Building C object CMakeFiles/tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tracking_interfaces/action/detail/search__type_support.c.o
+[ 22%] Linking C shared library libtracking_interfaces__rosidl_generator_c.so
+[ 22%] Built target tracking_interfaces__rosidl_generator_c
+[ 25%] Generating C type support for eProsima Fast-RTPS
+[ 28%] Generating C introspection for ROS interfaces
+[ 31%] Generating C++ type support for eProsima Fast-RTPS
+[ 34%] Generating C type support dispatch for ROS interfaces
+[ 37%] Generating C++ type support dispatch for ROS interfaces
+[ 40%] Generating C++ introspection for ROS interfaces
+[ 42%] Building CXX object CMakeFiles/tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_interfaces/action/search__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracking_interfaces/action/search__type_support.cpp.o
+[ 48%] Building CXX object CMakeFiles/tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_interfaces/action/detail/search__type_support.cpp.o
+[ 51%] Linking CXX shared library libtracking_interfaces__rosidl_typesupport_c.so
+[ 54%] Building C object CMakeFiles/tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_interfaces/action/detail/search__type_support.c.o
+[ 54%] Built target tracking_interfaces__rosidl_typesupport_c
+[ 57%] Linking C shared library libtracking_interfaces__rosidl_typesupport_introspection_c.so
+[ 57%] Built target tracking_interfaces__rosidl_typesupport_introspection_c
+[ 60%] Building CXX object CMakeFiles/tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_interfaces/action/detail/dds_fastrtps/search__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracking_interfaces/action/detail/search__type_support_c.cpp.o
+[ 65%] Linking CXX shared library libtracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[ 68%] Linking CXX shared library libtracking_interfaces__rosidl_typesupport_cpp.so
+[ 71%] Linking CXX shared library libtracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[ 71%] Built target tracking_interfaces__rosidl_typesupport_cpp
+[ 71%] Built target tracking_interfaces__rosidl_typesupport_fastrtps_c
+[ 71%] Built target tracking_interfaces__rosidl_typesupport_introspection_cpp
+[ 74%] Linking CXX shared library libtracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[ 74%] Built target tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target tracking_interfaces
+[ 77%] Generating Python code for ROS interfaces
+[ 77%] Built target tracking_interfaces__py
+[ 80%] Building C object CMakeFiles/tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tracking_interfaces/action/_search_s.c.o
+[ 80%] Built target ament_cmake_python_sync_tracking_interfaces
+running egg_info
+creating tracking_interfaces.egg-info
+writing tracking_interfaces.egg-info/PKG-INFO
+writing dependency_links to tracking_interfaces.egg-info/dependency_links.txt
+writing top-level names to tracking_interfaces.egg-info/top_level.txt
+writing manifest file 'tracking_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'tracking_interfaces.egg-info/SOURCES.txt'
+[ 82%] Linking C shared library libtracking_interfaces__rosidl_generator_py.so
+writing manifest file 'tracking_interfaces.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_tracking_interfaces_egg
+[ 82%] Built target tracking_interfaces__rosidl_generator_py
+[ 85%] Building C object CMakeFiles/tracking_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 88%] Building C object CMakeFiles/tracking_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 91%] Building C object CMakeFiles/tracking_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o
+[ 94%] Linking C shared module rosidl_generator_py/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_c.so
+[100%] Linking C shared module rosidl_generator_py/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[100%] Linking C shared module rosidl_generator_py/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+[100%] Built target tracking_interfaces_s__rosidl_typesupport_c
+[100%] Built target tracking_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target tracking_interfaces_s__rosidl_typesupport_introspection_c
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/tracking_interfaces
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/action/Search.json
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__functions.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__struct.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__type_support.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/search.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/library_path.sh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/library_path.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__builder.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__struct.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__traits.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__type_support.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/search.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/include/tracking_interfaces/tracking_interfaces/action/detail/search__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_c.so
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/rust/Cargo.toml
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/rust/build.rs
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/rust/src/action.rs
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/rust/src/action/rmw.rs
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/rust/src/lib.rs
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/action/Search.idl
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/action/Search.action
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/tracking_interfaces
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/tracking_interfaces
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/path.sh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/environment/path.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/local_setup.bash
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/local_setup.fish
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/local_setup.sh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/local_setup.zsh
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/local_setup.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/package.dsv
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/ament_index/resource_index/packages/tracking_interfaces
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces-0.1.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces-0.1.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces-0.1.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces-0.1.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/__init__.py
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action/__init__.py
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action/_search.py
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action/_search_s.c
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/py.typed
+-- Up-to-date symlink: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_c.so
+-- Up-to-date symlink: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfacesConfig.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfacesConfig-version.cmake
+-- Symlinking: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/package.xml
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/libtracking_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/share/tracking_interfaces/cmake/export_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+Listing '/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces'...
+Compiling '/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/__init__.py'...
+Listing '/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action'...
+Compiling '/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action/__init__.py'...
+Compiling '/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages/tracking_interfaces/action/_search.py'...

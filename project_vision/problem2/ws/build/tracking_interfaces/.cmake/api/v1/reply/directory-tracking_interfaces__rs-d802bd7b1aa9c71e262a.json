@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tracking_interfaces__rs",
+		"source" : "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/tracking_interfaces__rs"
+	}
+}

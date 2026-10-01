@@ -1,0 +1,164 @@
+{
+  "graph": {
+    "target": {
+      "topic": "/target",
+      "expected_type": "geometry_msgs/msg/PointStamped",
+      "types": [
+        "geometry_msgs/msg/PointStamped"
+      ],
+      "publishers": [
+        [
+          "target_detector",
+          "best_effort/keep_last/depth=1"
+        ]
+      ],
+      "subscribers": [
+        [
+          "tracking_controller",
+          "best_effort/keep_last/depth=1"
+        ]
+      ],
+      "expected_qos": "best_effort/keep_last/depth=1",
+      "expected_publisher": "target_detector",
+      "expected_subscriber": "tracking_controller",
+      "ok": true
+    },
+    "perception_status": {
+      "topic": "/perception_status",
+      "expected_type": "std_msgs/msg/String",
+      "types": [
+        "std_msgs/msg/String"
+      ],
+      "publishers": [
+        [
+          "target_detector",
+          "reliable/keep_last/depth=1"
+        ]
+      ],
+      "subscribers": [],
+      "expected_qos": "reliable/keep_last/depth=1",
+      "expected_publisher": "target_detector",
+      "expected_subscriber": "(모니터링)",
+      "ok": true
+    },
+    "pan_cmd": {
+      "topic": "/pan/cmd_vel",
+      "expected_type": "geometry_msgs/msg/Twist",
+      "types": [
+        "geometry_msgs/msg/Twist"
+      ],
+      "publishers": [
+        [
+          "tracking_controller",
+          "reliable/keep_last/depth=1"
+        ]
+      ],
+      "subscribers": [
+        [
+          "motor_driver",
+          "reliable/keep_last/depth=1"
+        ]
+      ],
+      "expected_qos": "reliable/keep_last/depth=1",
+      "expected_publisher": "tracking_controller",
+      "expected_subscriber": "motor_driver",
+      "ok": true
+    },
+    "tracking_status": {
+      "topic": "/tracking_status",
+      "expected_type": "std_msgs/msg/String",
+      "types": [
+        "std_msgs/msg/String"
+      ],
+      "publishers": [
+        [
+          "tracking_controller",
+          "reliable/keep_last/depth=1"
+        ]
+      ],
+      "subscribers": [],
+      "expected_qos": "reliable/keep_last/depth=1",
+      "expected_publisher": "tracking_controller",
+      "expected_subscriber": "(모니터링·기록)",
+      "ok": true
+    }
+  },
+  "rates": {
+    "target": {
+      "n": 123,
+      "hz": 30.0,
+      "max_gap": 0.035
+    },
+    "perception_status": {
+      "n": 9,
+      "hz": 1.33,
+      "max_gap": 1.0
+    },
+    "pan_cmd": {
+      "n": 140,
+      "hz": 20.0,
+      "max_gap": 0.051
+    },
+    "tracking_status": {
+      "n": 140,
+      "hz": 20.0,
+      "max_gap": 0.051
+    }
+  },
+  "qos_compat": {
+    "reliable_subscriber_received": 0,
+    "incompatible_qos_events": [
+      "RMW_QOS_POLICY_RELIABILITY"
+    ]
+  },
+  "transitions": [
+    {
+      "t": 0.102,
+      "target_x": null,
+      "target_z": null,
+      "perception": null,
+      "status": "WAITING",
+      "angular_z": 0.0
+    },
+    {
+      "t": 0.151,
+      "target_x": -0.1187,
+      "target_z": 0.0437,
+      "perception": "OK; stamp=receive(synthetic)",
+      "status": "TRACKING",
+      "angular_z": 0.1187
+    },
+    {
+      "t": 2.151,
+      "target_x": 0.0,
+      "target_z": 0.0833,
+      "perception": "OK; stamp=receive(synthetic)",
+      "status": "CENTERED",
+      "angular_z": 0.0
+    },
+    {
+      "t": 3.651,
+      "target_x": 0.0,
+      "target_z": 0.0,
+      "perception": "NO_TARGET; stamp=receive(synthetic)",
+      "status": "LOST",
+      "angular_z": 0.0
+    },
+    {
+      "t": 5.452,
+      "target_x": 0.0,
+      "target_z": 0.0,
+      "perception": "CAMERA_STALL; stamp=receive(synthetic)",
+      "status": "LOST",
+      "angular_z": 0.0
+    },
+    {
+      "t": 5.601,
+      "target_x": 0.0,
+      "target_z": 0.0,
+      "perception": "CAMERA_STALL; stamp=receive(synthetic)",
+      "status": "TIMEOUT",
+      "angular_z": 0.0
+    }
+  ]
+}

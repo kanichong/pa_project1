@@ -1,0 +1,34 @@
+running develop
+running egg_info
+creating target_tracking.egg-info
+writing target_tracking.egg-info/PKG-INFO
+writing dependency_links to target_tracking.egg-info/dependency_links.txt
+writing entry points to target_tracking.egg-info/entry_points.txt
+writing requirements to target_tracking.egg-info/requires.txt
+writing top-level names to target_tracking.egg-info/top_level.txt
+writing manifest file 'target_tracking.egg-info/SOURCES.txt'
+reading manifest file 'target_tracking.egg-info/SOURCES.txt'
+writing manifest file 'target_tracking.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages/target-tracking.egg-link (link to .)
+Installing controller script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+Installing detector script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+Installing input_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+Installing motor_driver script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+Installing pan_sim script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+Installing search_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+
+Installed /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking
+running symlink_data
+creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index
+creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index
+creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index/packages
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/resource/target_tracking -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/ament_index/resource_index/packages
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/package.xml -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking
+creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/test_inputs.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/bringup.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/sign_demo.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/launch/search_test.launch.py -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/launch
+creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/config
+symbolically linking /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/config/tracking.yaml -> /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/share/target_tracking/config

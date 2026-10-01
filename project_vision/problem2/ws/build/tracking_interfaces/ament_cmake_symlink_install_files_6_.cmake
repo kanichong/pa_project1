@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/pa8/Downloads/project_vision/problem2/ws/src/tracking_interfaces" FILES "/home/pa8/Downloads/project_vision/problem2/ws/build/tracking_interfaces/rosidl_adapter/tracking_interfaces/action/Search.idl" "DESTINATION" "share/tracking_interfaces/action")

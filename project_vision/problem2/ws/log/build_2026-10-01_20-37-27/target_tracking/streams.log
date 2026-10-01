@@ -1,0 +1,22 @@
+[0.437s] Invoking command in '/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking': AMENT_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces CMAKE_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib PYTHONPATH=/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages:/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/build --no-deps symlink_data
+[0.565s] running develop
+[0.615s] running egg_info
+[0.619s] writing target_tracking.egg-info/PKG-INFO
+[0.620s] writing dependency_links to target_tracking.egg-info/dependency_links.txt
+[0.620s] writing entry points to target_tracking.egg-info/entry_points.txt
+[0.620s] writing requirements to target_tracking.egg-info/requires.txt
+[0.620s] writing top-level names to target_tracking.egg-info/top_level.txt
+[0.629s] reading manifest file 'target_tracking.egg-info/SOURCES.txt'
+[0.629s] writing manifest file 'target_tracking.egg-info/SOURCES.txt'
+[0.634s] running build_ext
+[0.634s] Creating /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages/target-tracking.egg-link (link to .)
+[0.635s] Installing controller script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] Installing detector script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] Installing input_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] Installing motor_driver script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] Installing pan_sim script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] Installing search_test script to /home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/target_tracking
+[0.635s] 
+[0.635s] Installed /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking
+[0.635s] running symlink_data
+[0.651s] Invoked command in '/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking' returned '0': AMENT_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces CMAKE_PREFIX_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib PYTHONPATH=/home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pa8/Downloads/project_vision/problem2/ws/install/target_tracking/lib/python3.12/site-packages:/home/pa8/Downloads/project_vision/problem2/ws/install/tracking_interfaces/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pa8/Downloads/project_vision/problem2/ws/build/target_tracking/build --no-deps symlink_data

@@ -1,0 +1,10 @@
+{
+  "tag": "sign_normal",
+  "target_az_deg": -14.999999999999998,
+  "start_ex": 0.4348,
+  "end_ex": 0.0478,
+  "max_abs_ex": 0.4348,
+  "end_pan_deg": -13.35,
+  "lost_at_s": null,
+  "centered_at_s": 1.267
+}
